@@ -454,13 +454,15 @@ static void bind_to_free_cpu(void) {
 
       /* Processes without VmSize are probably kernel tasks. */
 
-      if (!strncmp(tmp, "VmSize:\t", 8)) has_vmsize = 1;
-
+      if (!strncmp(tmp, "VmSize:\t", 8)) 
+      {
+        has_vmsize = 1;
+      }
       if (!strncmp(tmp, "Cpus_allowed_list:\t", 19) &&
           !strchr(tmp, '-') && !strchr(tmp, ',') &&
           sscanf(tmp + 19, "%u", &hval) == 1 && hval < sizeof(cpu_used) &&
           has_vmsize) {
-
+        WARNF("cpu locked program found!");
         cpu_used[hval] = 1;
         break;
 
