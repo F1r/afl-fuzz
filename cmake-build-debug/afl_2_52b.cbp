@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="afl_2_52b"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/flier/Desktop/afl-2.52b/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/flier/Desktop/afl-2.52b/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/flier/Desktop/afl-2.52b/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/flier/Desktop/afl-2.52b/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/flier/Desktop/afl-2.52b/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/flier/Desktop/afl-2.52b/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/flier/Desktop/afl-2.52b/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/flier/Desktop/afl-2.52b/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/flier/Desktop/afl-2.52b/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/flier/Desktop/afl-2.52b/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/flier/Desktop/afl-2.52b/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/flier/Desktop/afl-2.52b/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/flier/Desktop/afl-2.52b/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/flier/Desktop/afl-2.52b/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/flier/Desktop/afl-2.52b/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="afl_2_52b">
+				<Option output="/home/flier/Desktop/afl-2.52b/cmake-build-debug/afl_2_52b" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/flier/Desktop/afl-2.52b/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/flier/Desktop/afl-2.52b/cmake-build-debug/Makefile&quot;  VERBOSE=1 afl_2_52b"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/flier/Desktop/afl-2.52b/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/flier/Desktop/afl-2.52b/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/flier/Desktop/afl-2.52b/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="afl_2_52b/fast">
+				<Option output="/home/flier/Desktop/afl-2.52b/cmake-build-debug/afl_2_52b" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/flier/Desktop/afl-2.52b/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/flier/Desktop/afl-2.52b/cmake-build-debug/Makefile&quot;  VERBOSE=1 afl_2_52b/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/flier/Desktop/afl-2.52b/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/flier/Desktop/afl-2.52b/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/flier/Desktop/afl-2.52b/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/flier/Desktop/afl-2.52b/afl-analyze.c">
+			<Option target="afl_2_52b"/>
+		</Unit>
+		<Unit filename="/home/flier/Desktop/afl-2.52b/afl-as.c">
+			<Option target="afl_2_52b"/>
+		</Unit>
+		<Unit filename="/home/flier/Desktop/afl-2.52b/afl-as.h">
+			<Option target="afl_2_52b"/>
+		</Unit>
+		<Unit filename="/home/flier/Desktop/afl-2.52b/afl-fuzz.c">
+			<Option target="afl_2_52b"/>
+		</Unit>
+		<Unit filename="/home/flier/Desktop/afl-2.52b/afl-gcc.c">
+			<Option target="afl_2_52b"/>
+		</Unit>
+		<Unit filename="/home/flier/Desktop/afl-2.52b/afl-gotcpu.c">
+			<Option target="afl_2_52b"/>
+		</Unit>
+		<Unit filename="/home/flier/Desktop/afl-2.52b/afl-showmap.c">
+			<Option target="afl_2_52b"/>
+		</Unit>
+		<Unit filename="/home/flier/Desktop/afl-2.52b/afl-tmin.c">
+			<Option target="afl_2_52b"/>
+		</Unit>
+		<Unit filename="/home/flier/Desktop/afl-2.52b/alloc-inl.h">
+			<Option target="afl_2_52b"/>
+		</Unit>
+		<Unit filename="/home/flier/Desktop/afl-2.52b/config.h">
+			<Option target="afl_2_52b"/>
+		</Unit>
+		<Unit filename="/home/flier/Desktop/afl-2.52b/debug.h">
+			<Option target="afl_2_52b"/>
+		</Unit>
+		<Unit filename="/home/flier/Desktop/afl-2.52b/experimental/argv_fuzzing/argv-fuzz-inl.h">
+			<Option target="afl_2_52b"/>
+		</Unit>
+		<Unit filename="/home/flier/Desktop/afl-2.52b/experimental/persistent_demo/persistent_demo.c">
+			<Option target="afl_2_52b"/>
+		</Unit>
+		<Unit filename="/home/flier/Desktop/afl-2.52b/experimental/post_library/post_library.so.c">
+			<Option target="afl_2_52b"/>
+		</Unit>
+		<Unit filename="/home/flier/Desktop/afl-2.52b/experimental/post_library/post_library_png.so.c">
+			<Option target="afl_2_52b"/>
+		</Unit>
+		<Unit filename="/home/flier/Desktop/afl-2.52b/hash.h">
+			<Option target="afl_2_52b"/>
+		</Unit>
+		<Unit filename="/home/flier/Desktop/afl-2.52b/libdislocator/libdislocator.so.c">
+			<Option target="afl_2_52b"/>
+		</Unit>
+		<Unit filename="/home/flier/Desktop/afl-2.52b/libtokencap/libtokencap.so.c">
+			<Option target="afl_2_52b"/>
+		</Unit>
+		<Unit filename="/home/flier/Desktop/afl-2.52b/llvm_mode/afl-clang-fast.c">
+			<Option target="afl_2_52b"/>
+		</Unit>
+		<Unit filename="/home/flier/Desktop/afl-2.52b/llvm_mode/afl-llvm-pass.so.cc">
+			<Option target="afl_2_52b"/>
+		</Unit>
+		<Unit filename="/home/flier/Desktop/afl-2.52b/llvm_mode/afl-llvm-rt.o.c">
+			<Option target="afl_2_52b"/>
+		</Unit>
+		<Unit filename="/home/flier/Desktop/afl-2.52b/qemu_mode/patches/afl-qemu-cpu-inl.h">
+			<Option target="afl_2_52b"/>
+		</Unit>
+		<Unit filename="/home/flier/Desktop/afl-2.52b/test-instr.c">
+			<Option target="afl_2_52b"/>
+		</Unit>
+		<Unit filename="/home/flier/Desktop/afl-2.52b/types.h">
+			<Option target="afl_2_52b"/>
+		</Unit>
+		<Unit filename="/home/flier/Desktop/afl-2.52b/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

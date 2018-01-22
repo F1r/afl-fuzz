@@ -462,7 +462,7 @@ static void bind_to_free_cpu(void) {
           !strchr(tmp, '-') && !strchr(tmp, ',') &&
           sscanf(tmp + 19, "%u", &hval) == 1 && hval < sizeof(cpu_used) &&
           has_vmsize) {
-        WARNF("cpu locked program found!");
+        WARNF("cpu lock program found!");
         cpu_used[hval] = 1;
         break;
 
@@ -1216,7 +1216,7 @@ static void minimize_bits(u8* dst, u8* src) {
 
   while (i < MAP_SIZE) {
 
-    if (*(src++)) dst[i >> 3] |= 1 << (i & 7);
+    if (*(src++)) dst[i >> 3] |= 1 << (i & 7); //drop the count information here, 8 to 1
     i++;
 
   }
@@ -1295,7 +1295,7 @@ static void cull_queue(void) {
 
   score_changed = 0;
 
-  memset(temp_v, 255, MAP_SIZE >> 3);
+  memset(temp_v, 0xff, MAP_SIZE >> 3);
 
   queued_favored  = 0;
   pending_favored = 0;
@@ -1311,7 +1311,8 @@ static void cull_queue(void) {
      If yes, and if it has a top_rated[] contender, let's use it. */
 
   for (i = 0; i < MAP_SIZE; i++)
-    if (top_rated[i] && (temp_v[i >> 3] & (1 << (i & 7)))) {
+    if (top_rated[i] && (temp_v[i >> 3] & (1 << (i & 7))))
+    {
 
       u32 j = MAP_SIZE >> 3;
 
@@ -1324,7 +1325,8 @@ static void cull_queue(void) {
       top_rated[i]->favored = 1;
       queued_favored++;
 
-      if (!top_rated[i]->was_fuzzed) pending_favored++;
+      if (!top_rated[i]->was_fuzzed)
+    	  pending_favored++;
 
     }
 
@@ -1989,7 +1991,7 @@ EXP_ST void init_forkserver(char** argv) {
 
   if (forksrv_pid < 0) PFATAL("fork() failed");
 
-  if (!forksrv_pid) {
+  if (!forksrv_pid) {//child process
 
     struct rlimit r;
 
@@ -2086,7 +2088,7 @@ EXP_ST void init_forkserver(char** argv) {
                            "allocator_may_return_null=1:"
                            "msan_track_origins=0", 0);
 
-    execv(target_path, argv);
+    execv(target_path, argv); // afl-2.52b/afl-qemu-trace ....
 
     /* Use a distinctive bitmap signature to tell the parent about execv()
        falling through. */
@@ -5230,7 +5232,8 @@ static u8 fuzz_one(char** argv) {
 
   orig_hit_cnt = new_hit_cnt;
 
-  for (stage_cur = 0; stage_cur < stage_max; stage_cur++) {
+  for (stage_cur = 0; stage_cur < stage_max; stage_cur++) 
+  {
 
     stage_cur_byte = stage_cur >> 3;
 
@@ -7285,7 +7288,6 @@ static void check_crash_handling(void) {
 
 
 /* Check CPU governor. */
-
 static void check_cpu_governor(void) {
 
   FILE* f;
@@ -7672,7 +7674,7 @@ static char** get_qemu_argv(u8* own_loc, char** argv, int argc) {
 }
 
 
-/* Make a copy of the current command line. */
+/* Make a copy of the current command line to orig_cmdline. */
 
 static void save_cmdline(u32 argc, char** argv) {
 
@@ -7686,10 +7688,10 @@ static void save_cmdline(u32 argc, char** argv) {
 
   for (i = 0; i < argc; i++) {
 
-    u32 l = strlen(argv[i]);
+    u32 len = strlen(argv[i]);
 
-    memcpy(buf, argv[i], l);
-    buf += l;
+    memcpy(buf, argv[i], len);
+    buf += len;
 
     if (i != argc - 1) *(buf++) = ' ';
 
@@ -7725,6 +7727,7 @@ int main(int argc, char** argv) {
   srandom(tv.tv_sec ^ tv.tv_usec ^ getpid());
 
   while ((opt = getopt(argc, argv, "+i:o:f:m:t:T:dnCB:S:M:x:Q")) > 0)
+  {
 
     switch (opt) {
 
@@ -7897,7 +7900,7 @@ int main(int argc, char** argv) {
         usage(argv[0]);
 
     }
-
+  }
   if (optind == argc || !in_dir || !out_dir) usage(argv[0]);
 
   setup_signal_handlers();
@@ -7908,7 +7911,8 @@ int main(int argc, char** argv) {
   if (!strcmp(in_dir, out_dir))
     FATAL("Input and output directories can't be the same");
 
-  if (dumb_mode) {
+  if (dumb_mode)
+  {
 
     if (crash_mode) FATAL("-C and -n are mutually exclusive");
     if (qemu_mode)  FATAL("-Q and -n are mutually exclusive");
@@ -7929,6 +7933,7 @@ int main(int argc, char** argv) {
   if (dumb_mode == 2 && no_forkserver)
     FATAL("AFL_DUMB_FORKSRV and AFL_NO_FORKSRV are mutually exclusive");
 
+  //LIBRARY PRELOAD
   if (getenv("AFL_PRELOAD")) {
     setenv("LD_PRELOAD", getenv("AFL_PRELOAD"), 1);
     setenv("DYLD_INSERT_LIBRARIES", getenv("AFL_PRELOAD"), 1);
@@ -7937,23 +7942,23 @@ int main(int argc, char** argv) {
   if (getenv("AFL_LD_PRELOAD"))
     FATAL("Use AFL_PRELOAD instead of AFL_LD_PRELOAD");
 
-  save_cmdline(argc, argv);
+  save_cmdline(argc, argv); // Make a copy of the current command line to orig_cmdline.
 
-  fix_up_banner(argv[optind]);
+  fix_up_banner(argv[optind]); // Trim and possibly create a banner for the run.
 
-  check_if_tty();
+  check_if_tty(); // Check if we're on TTY.
 
-  get_core_count();
+  get_core_count(); // get core count by check str "cpu" in file /proc/stat
 
 #ifdef HAVE_AFFINITY
   bind_to_free_cpu();
 #endif /* HAVE_AFFINITY */
 
   check_crash_handling();
-  check_cpu_governor();
+  check_cpu_governor(); // if min_freq equl max_freq, ALERT!
 
-  setup_post();
-  setup_shm();
+  setup_post(); // dlsym() dll provided by env AFL_POST_LIBRARY, then call post_handler to test
+  setup_shm(); // Configure shared memory and virgin_bits. This is called at startup.
   init_count_class16();
 
   setup_dirs_fds();
