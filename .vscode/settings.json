@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "cstring": "c",
+        "bitset": "c",
+        "cstdlib": "c",
+        "ostream": "c",
+        "chrono": "c",
+        "functional": "c"
+    },
+    "git.ignoreLimitWarning": true
+}

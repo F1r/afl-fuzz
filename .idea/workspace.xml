@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="afl_2_52b" targetName="afl_2_52b" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4b62cd78-14bd-4e10-9074-8e709332dede" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/.cur_input" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/fuzz_bitmap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/fuzzer_stats" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/.state/auto_extras/auto_000000" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000001,src:000000,op:flip1,pos:0,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000002,src:000000,op:flip1,pos:4,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000003,src:000000,op:flip1,pos:4,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000004,src:000000,op:flip1,pos:5,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000005,src:000000,op:flip1,pos:5,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000006,src:000000,op:flip1,pos:6,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000007,src:000000,op:flip1,pos:6,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000008,src:000000,op:flip1,pos:7,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000009,src:000000,op:flip1,pos:7,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000010,src:000000,op:flip1,pos:7,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000011,src:000000,op:flip1,pos:7,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000012,src:000000,op:flip1,pos:7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000013,src:000000,op:flip1,pos:7,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000014,src:000000,op:flip1,pos:7,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000015,src:000000,op:flip1,pos:16,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000016,src:000000,op:flip1,pos:16,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000017,src:000000,op:flip1,pos:16,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000018,src:000000,op:flip1,pos:18,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000019,src:000000,op:flip1,pos:18,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000020,src:000000,op:flip1,pos:18,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000021,src:000000,op:flip1,pos:18,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000022,src:000000,op:flip1,pos:18,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000023,src:000000,op:flip1,pos:18,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000024,src:000000,op:flip1,pos:18,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000025,src:000000,op:flip1,pos:18,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000026,src:000000,op:flip1,pos:19,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000027,src:000000,op:flip1,pos:19,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000028,src:000000,op:flip1,pos:19,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000029,src:000000,op:flip1,pos:32,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000030,src:000000,op:flip1,pos:32,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000031,src:000000,op:flip1,pos:32" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000032,src:000000,op:flip1,pos:32" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000033,src:000000,op:flip1,pos:32" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000034,src:000000,op:flip1,pos:32,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000035,src:000000,op:flip1,pos:32" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000036,src:000000,op:flip1,pos:33" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000037,src:000000,op:flip1,pos:33" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000038,src:000000,op:flip1,pos:33,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000039,src:000000,op:flip1,pos:33" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000040,src:000000,op:flip1,pos:33" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000041,src:000000,op:flip1,pos:33" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000042,src:000000,op:flip1,pos:34,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000043,src:000000,op:flip1,pos:34" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000044,src:000000,op:flip1,pos:40,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000045,src:000000,op:flip1,pos:40,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000046,src:000000,op:flip1,pos:40,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000047,src:000000,op:flip1,pos:40,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000048,src:000000,op:flip1,pos:41,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000049,src:000000,op:flip1,pos:41,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000050,src:000000,op:flip1,pos:41,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000051,src:000000,op:flip1,pos:41" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000052,src:000000,op:flip1,pos:41,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000053,src:000000,op:flip1,pos:41,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000054,src:000000,op:flip1,pos:42,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000055,src:000000,op:flip1,pos:48,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000056,src:000000,op:flip1,pos:54,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000057,src:000000,op:flip1,pos:54,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000058,src:000000,op:flip1,pos:55" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000059,src:000000,op:flip1,pos:56" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000060,src:000000,op:flip1,pos:56" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000061,src:000000,op:flip1,pos:56" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000062,src:000000,op:flip1,pos:56" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000063,src:000000,op:flip1,pos:56,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000064,src:000000,op:flip1,pos:56" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000065,src:000000,op:flip1,pos:56" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000066,src:000000,op:flip1,pos:56" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000067,src:000000,op:flip1,pos:57,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000068,src:000000,op:flip1,pos:58,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000069,src:000000,op:flip1,pos:58,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000070,src:000000,op:flip1,pos:60,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000071,src:000000,op:flip1,pos:60" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000072,src:000000,op:flip1,pos:60" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000073,src:000000,op:flip1,pos:62" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000074,src:000000,op:flip1,pos:62" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000075,src:000000,op:flip1,pos:62" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000076,src:000000,op:flip1,pos:62" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000077,src:000000,op:flip1,pos:64" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000078,src:000000,op:flip1,pos:64,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000079,src:000000,op:flip1,pos:64" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000080,src:000000,op:flip1,pos:64,+cov" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/afl-out/queue/id:000081,src:000000,op:flip1,pos:67" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/afl-fuzz" afterPath="$PROJECT_DIR$/afl-fuzz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/afl-fuzz.c" afterPath="$PROJECT_DIR$/afl-fuzz.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/afl-out/plot_data" afterPath="$PROJECT_DIR$/afl-out/plot_data" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="afl-fuzz.c" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/afl-fuzz.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="7913" column="2" lean-forward="false" selection-start-line="7913" selection-start-column="2" selection-end-line="7913" selection-end-column="2" />
+              <folding>
+                <marker date="1516114041599" expanded="true" signature="138361:138612" ph="/.../" />
+                <marker date="1516114041599" expanded="true" signature="138877:139003" ph="/.../" />
+                <marker date="1516114041599" expanded="true" signature="139483:139758" ph="/.../" />
+                <marker date="1516114041599" expanded="true" signature="139826:139942" ph="/.../" />
+                <marker date="1516114041599" expanded="true" signature="140259:140417" ph="/.../" />
+                <marker date="1516114041599" expanded="true" signature="142979:143073" ph="/.../" />
+                <marker date="1516114041599" expanded="true" signature="144425:144649" ph="/.../" />
+                <marker date="1516114041599" expanded="true" signature="146773:146913" ph="/.../" />
+                <marker date="1516114041599" expanded="true" signature="150122:150239" ph="/.../" />
+                <marker date="1516114041599" expanded="true" signature="152038:152148" ph="/.../" />
+                <marker date="1516114041599" expanded="true" signature="153682:153898" ph="/.../" />
+                <marker date="1516114041599" expanded="true" signature="153946:154184" ph="/.../" />
+                <marker date="1516114041599" expanded="true" signature="157106:157289" ph="/.../" />
+                <marker date="1516114041599" expanded="true" signature="157453:157609" ph="/.../" />
+                <marker date="1516114041599" expanded="true" signature="158190:158332" ph="/.../" />
+                <marker date="1516114041599" expanded="true" signature="161924:162078" ph="/.../" />
+                <marker date="1516114041599" expanded="true" signature="162185:162347" ph="/.../" />
+                <marker date="1516114041599" expanded="true" signature="164046:164141" ph="/.../" />
+                <marker date="1516114041599" expanded="true" signature="164699:164806" ph="/.../" />
+                <marker date="1516114041599" expanded="true" signature="164951:165052" ph="/.../" />
+                <marker date="1516114041599" expanded="true" signature="165958:166052" ph="/.../" />
+                <marker date="1516114041599" expanded="true" signature="167338:167441" ph="/.../" />
+                <marker date="1516114041599" expanded="true" signature="167562:167649" ph="/.../" />
+                <marker date="1516114041599" expanded="true" signature="168220:168473" ph="/.../" />
+                <marker date="1516114041599" expanded="true" signature="168698:168783" ph="/.../" />
+                <marker date="1516114041599" expanded="true" signature="169694:169861" ph="/.../" />
+                <marker date="1516114041599" expanded="true" signature="170486:170609" ph="/.../" />
+                <marker date="1516114041599" expanded="true" signature="171044:174216" ph="{...}" />
+                <marker date="1516114041599" expanded="true" signature="172396:172520" ph="/.../" />
+                <marker date="1516114041599" expanded="true" signature="173493:173606" ph="/.../" />
+                <marker date="1516114041599" expanded="true" signature="174297:174419" ph="{...}" />
+                <marker date="1516114041599" expanded="true" signature="174496:174523" ph="{...}" />
+                <marker date="1516114041599" expanded="true" signature="174594:174795" ph="{...}" />
+                <marker date="1516114041599" expanded="true" signature="174798:175006" ph="/.../" />
+                <marker date="1516114041599" expanded="true" signature="175044:179896" ph="{...}" />
+                <marker date="1516114041599" expanded="false" signature="177611:177745" ph="..." />
+                <marker date="1516114041599" expanded="true" signature="179989:180324" ph="{...}" />
+                <marker date="1516114041599" expanded="true" signature="180388:180728" ph="{...}" />
+                <marker date="1516114041599" expanded="true" signature="180812:180964" ph="{...}" />
+                <marker date="1516114041599" expanded="true" signature="181025:182225" ph="{...}" />
+                <marker date="1516114041599" expanded="true" signature="182304:185563" ph="{...}" />
+                <marker date="1516114041599" expanded="true" signature="183105:183197" ph="/.../" />
+                <marker date="1516114041599" expanded="true" signature="183331:183431" ph="/.../" />
+                <marker date="1516114041599" expanded="true" signature="185664:185882" ph="{...}" />
+                <marker date="1516114041599" expanded="true" signature="185980:188262" ph="{...}" />
+                <marker date="1516114041599" expanded="false" signature="186003:187187" ph="..." />
+                <marker date="1516114041599" expanded="true" signature="187198:187324" ph="/.../" />
+                <marker date="1516114041599" expanded="true" signature="188329:189824" ph="{...}" />
+                <marker date="1516114041599" expanded="true" signature="189906:191647" ph="{...}" />
+                <marker date="1516114041599" expanded="false" signature="190009:190363" ph="..." />
+                <marker date="1516114041599" expanded="false" signature="190454:190646" ph="..." />
+                <marker date="1516114041599" expanded="false" signature="190891:190985" ph="..." />
+                <marker date="1516114041599" expanded="true" signature="191743:192364" ph="{...}" />
+                <marker date="1516114041599" expanded="true" signature="192442:192465" ph="{...}" />
+                <marker date="1516114041599" expanded="true" signature="192529:193139" ph="{...}" />
+                <marker date="1516114041599" expanded="true" signature="193211:194029" ph="{...}" />
+                <marker date="1516114041599" expanded="true" signature="194032:194240" ph="/.../" />
+                <marker date="1516114041599" expanded="true" signature="194282:195021" ph="{...}" />
+                <marker date="1516114041599" expanded="true" signature="195118:196801" ph="{...}" />
+                <marker date="1516114041599" expanded="true" signature="196900:197201" ph="{...}" />
+                <marker date="1516114041599" expanded="true" signature="197277:206223" ph="{...}" />
+                <marker date="1516114041599" expanded="true" signature="200698:201248" ph="/.../" />
+                <marker date="1516114041599" expanded="true" signature="204770:204867" ph="/.../" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>main</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/afl-fuzz.c" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1920" />
+    <option name="height" value="1044" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType ProjectPane="true" />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="afl_2_52b" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="afl-2.52b" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.afl_2_52b">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+    </configuration>
+    <configuration name="afl_2_52b" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="afl_2_52b" TARGET_NAME="afl_2_52b" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="afl_2_52b" RUN_TARGET_NAME="afl_2_52b">
+      <envs />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="1" class="java.lang.String" itemvalue="Application.afl_2_52b" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b62cd78-14bd-4e10-9074-8e709332dede" name="Default" comment="" />
+      <created>1516113594010</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1516113594010</updated>
+      <workItem from="1516113597187" duration="495000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="495000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1515625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="102" y="103" width="480" height="941" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943678" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943678" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15052083" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/afl-fuzz.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="7913" column="2" lean-forward="false" selection-start-line="7913" selection-start-column="2" selection-end-line="7913" selection-end-column="2" />
+          <folding>
+            <marker date="1516114041599" expanded="true" signature="138361:138612" ph="/.../" />
+            <marker date="1516114041599" expanded="true" signature="138877:139003" ph="/.../" />
+            <marker date="1516114041599" expanded="true" signature="139483:139758" ph="/.../" />
+            <marker date="1516114041599" expanded="true" signature="139826:139942" ph="/.../" />
+            <marker date="1516114041599" expanded="true" signature="140259:140417" ph="/.../" />
+            <marker date="1516114041599" expanded="true" signature="142979:143073" ph="/.../" />
+            <marker date="1516114041599" expanded="true" signature="144425:144649" ph="/.../" />
+            <marker date="1516114041599" expanded="true" signature="146773:146913" ph="/.../" />
+            <marker date="1516114041599" expanded="true" signature="150122:150239" ph="/.../" />
+            <marker date="1516114041599" expanded="true" signature="152038:152148" ph="/.../" />
+            <marker date="1516114041599" expanded="true" signature="153682:153898" ph="/.../" />
+            <marker date="1516114041599" expanded="true" signature="153946:154184" ph="/.../" />
+            <marker date="1516114041599" expanded="true" signature="157106:157289" ph="/.../" />
+            <marker date="1516114041599" expanded="true" signature="157453:157609" ph="/.../" />
+            <marker date="1516114041599" expanded="true" signature="158190:158332" ph="/.../" />
+            <marker date="1516114041599" expanded="true" signature="161924:162078" ph="/.../" />
+            <marker date="1516114041599" expanded="true" signature="162185:162347" ph="/.../" />
+            <marker date="1516114041599" expanded="true" signature="164046:164141" ph="/.../" />
+            <marker date="1516114041599" expanded="true" signature="164699:164806" ph="/.../" />
+            <marker date="1516114041599" expanded="true" signature="164951:165052" ph="/.../" />
+            <marker date="1516114041599" expanded="true" signature="165958:166052" ph="/.../" />
+            <marker date="1516114041599" expanded="true" signature="167338:167441" ph="/.../" />
+            <marker date="1516114041599" expanded="true" signature="167562:167649" ph="/.../" />
+            <marker date="1516114041599" expanded="true" signature="168220:168473" ph="/.../" />
+            <marker date="1516114041599" expanded="true" signature="168698:168783" ph="/.../" />
+            <marker date="1516114041599" expanded="true" signature="169694:169861" ph="/.../" />
+            <marker date="1516114041599" expanded="true" signature="170486:170609" ph="/.../" />
+            <marker date="1516114041599" expanded="true" signature="171044:174216" ph="{...}" />
+            <marker date="1516114041599" expanded="true" signature="172396:172520" ph="/.../" />
+            <marker date="1516114041599" expanded="true" signature="173493:173606" ph="/.../" />
+            <marker date="1516114041599" expanded="true" signature="174297:174419" ph="{...}" />
+            <marker date="1516114041599" expanded="true" signature="174496:174523" ph="{...}" />
+            <marker date="1516114041599" expanded="true" signature="174594:174795" ph="{...}" />
+            <marker date="1516114041599" expanded="true" signature="174798:175006" ph="/.../" />
+            <marker date="1516114041599" expanded="true" signature="175044:179896" ph="{...}" />
+            <marker date="1516114041599" expanded="false" signature="177611:177745" ph="..." />
+            <marker date="1516114041599" expanded="true" signature="179989:180324" ph="{...}" />
+            <marker date="1516114041599" expanded="true" signature="180388:180728" ph="{...}" />
+            <marker date="1516114041599" expanded="true" signature="180812:180964" ph="{...}" />
+            <marker date="1516114041599" expanded="true" signature="181025:182225" ph="{...}" />
+            <marker date="1516114041599" expanded="true" signature="182304:185563" ph="{...}" />
+            <marker date="1516114041599" expanded="true" signature="183105:183197" ph="/.../" />
+            <marker date="1516114041599" expanded="true" signature="183331:183431" ph="/.../" />
+            <marker date="1516114041599" expanded="true" signature="185664:185882" ph="{...}" />
+            <marker date="1516114041599" expanded="true" signature="185980:188262" ph="{...}" />
+            <marker date="1516114041599" expanded="false" signature="186003:187187" ph="..." />
+            <marker date="1516114041599" expanded="true" signature="187198:187324" ph="/.../" />
+            <marker date="1516114041599" expanded="true" signature="188329:189824" ph="{...}" />
+            <marker date="1516114041599" expanded="true" signature="189906:191647" ph="{...}" />
+            <marker date="1516114041599" expanded="false" signature="190009:190363" ph="..." />
+            <marker date="1516114041599" expanded="false" signature="190454:190646" ph="..." />
+            <marker date="1516114041599" expanded="false" signature="190891:190985" ph="..." />
+            <marker date="1516114041599" expanded="true" signature="191743:192364" ph="{...}" />
+            <marker date="1516114041599" expanded="true" signature="192442:192465" ph="{...}" />
+            <marker date="1516114041599" expanded="true" signature="192529:193139" ph="{...}" />
+            <marker date="1516114041599" expanded="true" signature="193211:194029" ph="{...}" />
+            <marker date="1516114041599" expanded="true" signature="194032:194240" ph="/.../" />
+            <marker date="1516114041599" expanded="true" signature="194282:195021" ph="{...}" />
+            <marker date="1516114041599" expanded="true" signature="195118:196801" ph="{...}" />
+            <marker date="1516114041599" expanded="true" signature="196900:197201" ph="{...}" />
+            <marker date="1516114041599" expanded="true" signature="197277:206223" ph="{...}" />
+            <marker date="1516114041599" expanded="true" signature="200698:201248" ph="/.../" />
+            <marker date="1516114041599" expanded="true" signature="204770:204867" ph="/.../" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
